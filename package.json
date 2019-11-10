@@ -1,0 +1,23 @@
+{
+  "name": "PRJ-cablecadre",
+  "version": "1.0.0",
+  "description": "Un blog sur le webdesign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecvwebdesign/cablecadre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecvwebdesign/cablecadre/issues"
+  },
+  "homepage": "https://github.com/ecvwebdesign/cablecadre#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
