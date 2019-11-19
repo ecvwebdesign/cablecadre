@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+section: home
+---
+
+{{ layoutContent | safe }}
+
+<section class="section--list-articles">
+<h2>Les Articles</h2>
+{% set postslist = collections.posts %}
+{% include "components/postslist.njk" %}
+</section>
+
+<section class="section--list-howtos">
+<h2>Les How tos</h2>
+{% set howtolist = collections.howto %}
+{% include "components/howtolist.njk" %}
+</section>
+
+<section class="section--list-checkthisouts">
+<h2>Check this out</h2>
+
+list goes here
+</section>
