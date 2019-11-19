@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/post.njk",
+  "permalink": "howtos/{{ title | slug }}/index.html",
+  "tags": "howto"
+}
