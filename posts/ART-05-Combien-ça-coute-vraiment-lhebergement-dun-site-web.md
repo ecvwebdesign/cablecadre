@@ -1,12 +1,14 @@
 ---
-title: This is my fourth post
-summary: Ceci est le 4ie article ou post sur le blog
-date: 2019-11-10
+title: Combien ça coûte vraiment l’hébergement d’un site web ?
+summary: Ceci est le 5ie article ou post sur le blog
+date: 2019-11-28
 tags:
   - post
-  - testing
+  - Front end design
+  - ui design
   - design methods
 ---
+#Combien ça coûte vraiment l’hébergement d’un site web ?
 Quand on a du texte et autres éléments inline dans une page, chaque ligne de contenu est traitée comme une boîte de ligne (line-box). La propriété text-align alignera ce contenu dans la page — par exemple si vous voulez centrer votre texte ou le justifier.
 
 Mais parfois vous voudrez aligner les choses à l'intérieur de cette boîte de ligne par rapport à d'autres choses, par exemple si vous avez une icône affichée à côté du texte, ou bien des textes de taille différente ( NdT : si vous avez besoin de rafraîchir vos connaissances sur inline et block, l'article CSS Block, Inline et Inline-Block remettra tout en place !).
