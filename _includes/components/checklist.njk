@@ -1,0 +1,35 @@
+<div class="item-list">
+{% for check in checklist | reverse %}
+	<article{% if check.url == url %} data-current="current item"{% endif %}>
+		<h3>
+			<a href="{{ check.url | url }}">
+				{% if check.data.title %}
+					{{ check.data.title }}
+				{% else %}
+					Untitled
+				{% endif %}
+			</a>
+		</h3>
+		{% if check.data.summary %}
+			<p>
+				{{ check.data.summary }}
+			</p>
+		{% endif %}
+		<p>
+			<time datetime="{{ check.date | machineDate }}">
+				<small>{{ check.date | readableDate }} by {{ metadata.author.name }}</small>
+			</time>
+		</p>
+		{% if check.data.tags %}
+			<p>
+				{% for tag in check.data.tags %}
+					{%- if tag != "check" -%}
+						{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+					<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+					{%- endif -%}
+				{% endfor %}
+			</p>
+		{% endif %}
+	</article>
+{% endfor %}
+</div>

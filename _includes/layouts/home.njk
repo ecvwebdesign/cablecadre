@@ -17,8 +17,8 @@ section: home
 {% include "components/howtolist.njk" %}
 </section>
 
-<section class="section--list-checkthisouts">
+<section class="section--list-check">
 <h2>Check this out</h2>
-
-list goes here
+{% set checklist = collections.check %}
+{% include "components/checklist.njk" %}
 </section>
