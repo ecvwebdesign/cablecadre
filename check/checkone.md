@@ -8,6 +8,7 @@ tags:
   - Front end development
   - ui design
   - ux design
+image: logo.png
 ---
 #Wireframe, maquette.
 Quand on a du texte et autres éléments inline dans une page, chaque ligne de contenu est traitée comme une boîte de ligne (line-box). La propriété text-align alignera ce contenu dans la page — par exemple si vous voulez centrer votre texte ou le justifier.

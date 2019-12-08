@@ -5,6 +5,7 @@ section: check
 
 <article>
   <h1>{{ title }}</h1>
+  <img src="/static/img/{{image | url}}" alt="image pas chère" />
   <p>
     <small>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
