@@ -1,5 +1,5 @@
 ---
-title: Wireframe, prototype, maquette.11111
+title: Wireframe, prototype, maquette.22222
 summary: Ceci est le premier Matte-moi ça
 date: 2019-28-11
 tags:
@@ -8,14 +8,14 @@ tags:
   - Front end development
   - ui design
   - ux design
-image: logo.png
+image: image_deux.jpg
 ---
 #Wireframe, maquette.
 Quand on a du texte et autres éléments inline dans une page, chaque ligne de contenu est traitée comme une boîte de ligne (line-box). La propriété text-align alignera ce contenu dans la page — par exemple si vous voulez centrer votre texte ou le justifier.
 
 Mais parfois vous voudrez aligner les choses à l'intérieur de cette boîte de ligne par rapport à d'autres choses, par exemple si vous avez une icône affichée à côté du texte, ou bien des textes de taille différente ( NdT : si vous avez besoin de rafraîchir vos connaissances sur inline et block, l'article CSS Block, Inline et Inline-Block remettra tout en place !).
 
-![une image pas chère](/static/img/logo.png)
+![une image pas chère](/static/img/image_deux.jpg)
 
 ## Section Header de type h2
 
