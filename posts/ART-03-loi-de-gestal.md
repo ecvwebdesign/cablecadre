@@ -9,7 +9,6 @@ tags:
   - design d'interface
   - design réfléchi
   - ergonomie
-
 ---
 
 Qu’est-ce que c’est ? Les lois ont été développées par les chercheurs en psychologie cognitive de l’école de Berlin au début du XXe siècle. Ce mouvement tient son nom du verbe allemand gestalten qui signifie “mettre en forme, donner une structure signifiante”.
