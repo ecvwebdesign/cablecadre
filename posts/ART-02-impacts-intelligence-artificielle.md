@@ -5,7 +5,7 @@ date: 2019-12-12
 author: Elian
 tags:
   - post
-  - ux
+  - experience utilisateur
   - outils
 ---
 
@@ -21,14 +21,8 @@ Bien d’autres outils intelligents qui permettent d’accompagner et d’assist
 
 L’auteur de cet article soulève d’autres points intéressants liés à l’intelligence artificielle comme l'évolution de la compréhension du langage entre l'Homme et les robots et les ICM, interfaces cerveau-machine, qui permettraient d'utiliser les échanges électriques entre les neurones pour contrôler un ordinateur.
 
-## Pourquoi ?
+## Pourquoi cette article ?
 
 L'intelligence artificielle n'est plus une utopie extraite d'une histoire tirée de la science-fiction. Cette évolution risque de transformer notre monde et offrir de nouvelles possibilités qui vont renouveler les standards dans le but d'améliorer notre expérience utilisateur.
 
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-```
+[Lien vers l'article](https://www.pierrelaine.fr/articles-ux-ui-design/impacts-intelligence-artificielle-experience-utilisateur.html)
