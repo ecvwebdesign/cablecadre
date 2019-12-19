@@ -226,3 +226,11 @@ button {
 	flex-basis: 320px;
 	flex-grow: 1;
 }
+
+.fig_check {
+  max-width: 320px;
+	margin: 0;
+}
+.img_check {
+  width: 100%;
+}
