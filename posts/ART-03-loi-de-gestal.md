@@ -6,8 +6,8 @@ author: Bertrand
 tags:
   - post
   - experience utilisateur
-  - design d'interface
-  - design réfléchi
+  - design interface
+  - design reflechi
   - ergonomie
 ---
 

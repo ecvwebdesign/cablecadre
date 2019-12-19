@@ -8,6 +8,6 @@ tags:
   - couleurs
   - interface utilisateur
 image: check-nipponcolors.jpg
-url: http://www.town.shimane-misato.lg.jp/misatoto/
+url: https://nipponcolors.com/
 ---
 ![image du site nipponcolors](/static/img/check-nipponcolors.jpg)
