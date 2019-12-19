@@ -6,7 +6,7 @@ author: Marion
 tags:
   - post
   - guide de style
-  - travail d'équipe
+  - travail equipe
   - communication
   - organisation
 ---
