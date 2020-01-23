@@ -27,6 +27,7 @@ body {
   color : var(--maincolor);
 }
 
+
 body {
 	display: grid;
 	height: 100vh;
@@ -34,9 +35,11 @@ body {
 	background-color: var(--bgcablecadre);
 }
 
+/*
 main {
 	max-width: 37.5em;
 }
+*/
 
 p,
 pre,

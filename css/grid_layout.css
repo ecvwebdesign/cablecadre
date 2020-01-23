@@ -1,0 +1,27 @@
+.content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0 10% 0 10%;
+  grid-gap: 2%;
+}
+
+.section--list-articles{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.section--list-check{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.section--list-howtos{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.section--list-agenda{
+  grid-column: 2;
+  grid-row: 1/3;
+}
