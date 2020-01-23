@@ -7,13 +7,16 @@
 
 		<header>
 				<a href="{{ '/' | url }}"><figure class="logo-image">
-				   <img src="/static/img/logo.svg" alt="image pas chère" />
+				   <img src="/static/img/logo.svg" alt="Câble Cadre" />
 				  </figure></a>
 			{% include "components/nav.njk" %}
 		</header>
 
 		<main>
+			<div class="content">
 			{{ layoutContent | safe }}
+			</div>
+
 		</main>
 
 		{% include "components/footer.njk" %}
