@@ -9,7 +9,10 @@ tags:
   - travail equipe
   - communication
   - organisation
+image: art08_640.png
 ---
+
+![image de guide de style](/static/img/art08_640.png)
 
 Comment, mais surtout pourquoi créer un guide de style ?
 Voici la question que se pose dans cet article Tomas Laurinavicius. Il nous dévoile l'importance de cet outil dans le monde du web design, où l'on travaille constamment en équipe. Cette stratégie existe pour nourrir notre insatiable besoin de communiquer, afin de rendre la création de sites internet encore plus efficace.
@@ -19,7 +22,7 @@ Cela évite les quiproquos, ou bien de se retrouver avec des modifications non j
 L'auteur de l'article nous donne un certain nombre de règles et d'astuces pour créer son guide de style. Il construit alors son argumentaire en dix parties distinctes, passant en revue : l'étude de la marque, la définition de la typographie, le choix de la palette de couleurs, le ton utilisé (storytelling), l'iconographie, les images, les formes, les boutons, l'espacement et la liste des choses à faire et à ne pas faire.
 Il illustre ensuite ses propos en nous donnant accès à une liste de guides de style de différentes marques dont Spotify et Dropbox.
 
-## Pourquoi cette article ?
+## Pourquoi cet article ?
 
 Cet article est un premier pas dans l'apprentissage de la rigueur qu'il faut pour travailler dans le milieu du web design. Créer un guide de style nous oblige à justifier chaque choix fait lors de la conception. Mais c'est également une leçon sur comment collaborer avec ses collègues en général. Par exemple, l'utilisation de notes explicatives est une astuce qui peut paraître banale, mais qui peut également faire gagner énormément de temps. En vérité, faire un guide de style sert essentiellement à prévenir les erreurs. Ce que l'on pense être une évidence ne l'est peut être pas pour la personne à côté de nous, bien que l'on travaille ensemble depuis des années !
 
