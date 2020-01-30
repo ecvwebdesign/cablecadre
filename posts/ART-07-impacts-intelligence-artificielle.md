@@ -24,7 +24,7 @@ Bien d’autres outils intelligents qui permettent d’accompagner et d’assist
 
 L’auteur de cet article soulève d’autres points intéressants liés à l’intelligence artificielle comme l'évolution de la compréhension du langage entre l'Homme et les robots et les ICM, interfaces cerveau-machine, qui permettraient d'utiliser les échanges électriques entre les neurones pour contrôler un ordinateur.
 
-## Pourquoi cette article ?
+## Pourquoi cet article ?
 
 L'intelligence artificielle n'est plus une utopie extraite d'une histoire tirée de la science-fiction. Cette évolution risque de transformer notre monde et offrir de nouvelles possibilités qui vont renouveler les standards dans le but d'améliorer notre expérience utilisateur.
 
