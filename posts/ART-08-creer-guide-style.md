@@ -9,7 +9,10 @@ tags:
   - travail equipe
   - communication
   - organisation
+image: art08_640.png
 ---
+
+![image de guide de style](/static/img/art08_640.png)
 
 Comment, mais surtout pourquoi créer un guide de style ?
 Voici la question que se pose dans cet article Tomas Laurinavicius. Il nous dévoile l'importance de cet outil dans le monde du web design, où l'on travaille constamment en équipe. Cette stratégie existe pour nourrir notre insatiable besoin de communiquer, afin de rendre la création de sites internet encore plus efficace.
