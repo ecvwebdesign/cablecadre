@@ -7,7 +7,10 @@ tags:
   - post
   - experience utilisateur
   - outils
+image: art07_640.png
 ---
+
+![image cerveau connexions](/static/img/art07_640.png)
 
 L’intelligence en elle-même est la relation entre les facultés cognitives (perception, mémorisation, apprentissage, langage, raisonnement) et les facultés exécutives.
 Et l’intelligence artificielle peut quant à elle se définir comme la science qui s'attèle à ce genre de procédés.
