@@ -1,19 +1,22 @@
 
 	{% for howto in howtolist | reverse %}
 		<article{% if howto.url == url %} data-current="current item"{% endif %}>
-			<h3>
 				<a href="{{ howto.url | url }}">
+				<figure class="fig_howto">
+					 <img src="/static/img/{{ howto.data.image | url }}" class="img_check" />
+					</figure>
+						<h3>
 					{% if howto.data.title %}
 						{{ howto.data.title }}
 					{% else %}
 						Untitled
 					{% endif %}
-				</a>
 			</h3>
 			{% if howto.data.summary %}
 				<p>
 					{{ howto.data.summary }}
 				</p>
+					</a>
 			{% endif %}
 			<p>
 				<time datetime="{{ howto.date | machineDate }}">
