@@ -1,5 +1,5 @@
 ---
-title: Les lois de Gestal à travers le web
+title: Les lois de Gestalt à travers le web
 summary: Les lois ont été développées par les chercheurs en psychologie cognitive de l’école de Berlin au début du XXe siècle.
 date: 2019-12-19
 author: Bertrand
@@ -9,7 +9,13 @@ tags:
   - design interface
   - design reflechi
   - ergonomie
+<<<<<<< HEAD:posts/ART-03-loi-de-gestal.md
+=======
+image: art10_640.png
+>>>>>>> 00500531f2b07f44986751712acb9ddb5ac134de:posts/ART-10-loi-de-gestalt.md
 ---
+
+![image illusion d'optique cube](/static/img/art10_640.png)
 
 Qu’est-ce que c’est ? Les lois ont été développées par les chercheurs en psychologie cognitive de l’école de Berlin au début du XXe siècle. Ce mouvement tient son nom du verbe allemand gestalten qui signifie “mettre en forme, donner une structure signifiante”.
 Elle s’intéresse à la perception et à l’intégration des formes ; c’est-à-dire aux mécanismes de la pensée.
@@ -30,11 +36,3 @@ Votre cerveau réfléchit plus que vous ne le pensiez. Donc n’hésitez pas à 
 Le web-design est une discipline qui demande rigueur et efficacité. Nous sommes amenés quand nous créons à penser différemment, et à se contredire continuellement. C’est important de pouvoir compter sur des outils efficaces pour nous permettre de répondre activement à des attentes en terme d’ergonomie et de praticité. C’est pourquoi les lois de Gestalt remplissent pleinement ce rôle, en apportant un éventail d’outil permettant une hiérarchisation ainsi qu’une classification de l’information et des contenus. Primordiale pour apporter à l’utilisateur clarté et simplicité dans son expérience web.
 
 [Lien vers l'article](https://medium.com/@walrantmaxime/les-lois-de-gestalt-%C3%A0-travers-le-web-eb39ab6b6f0c)
-
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-```
