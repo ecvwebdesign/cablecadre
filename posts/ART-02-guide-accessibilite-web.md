@@ -1,6 +1,6 @@
 ---
 title: Le guide de l'accessibilité web
-summary: Près de 20% de la population souffre d'un handicap, d'une forme ou d'une autre : handicap visuel, auditif, moteur…
+summary: Près de 20% de la population souffre d'un handicap, d'une forme ou d'une autre, handicap visuel, auditif, moteur…
 date: 2019-12-04
 author: Gaëlle
 tags:
