@@ -5,10 +5,15 @@
 
 	<body {% if section %} class="{{ section }}"{% endif %}>
 
-		<header>
-				<a href="{{ '/' | url }}"><figure class="logo-image">
+		<header class="header">
+				<a href="{{ '/' | url }}" class="logo">
+					<figure>
 				   <img src="/static/img/logo.svg" alt="Câble Cadre" />
 				  </figure></a>
+
+					<input class="menu-btn" type="checkbox" id="menu-btn" />
+					<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
 			{% include "components/nav.njk" %}
 		</header>
 
