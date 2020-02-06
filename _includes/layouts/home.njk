@@ -4,8 +4,10 @@ section: home
 ---
 
 
-<section class="section--list-articles">
 {{ layoutContent | safe }}
+
+<section class="section--list-articles">
+
 <h2>Les Articles</h2>
 {% set postslist = collections.posts %}
 {% include "components/postslist.njk" %}
