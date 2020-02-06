@@ -9,10 +9,7 @@ tags:
   - design interface
   - design reflechi
   - ergonomie
-<<<<<<< HEAD:posts/ART-03-loi-de-gestal.md
-=======
 image: art10_640.png
->>>>>>> 00500531f2b07f44986751712acb9ddb5ac134de:posts/ART-10-loi-de-gestalt.md
 ---
 
 ![image illusion d'optique cube](/static/img/art10_640.png)
