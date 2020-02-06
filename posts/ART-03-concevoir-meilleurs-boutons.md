@@ -7,8 +7,8 @@ tags:
   - post
   - UD
   - UX
-  - Design
-  - Navigation
+  - design
+  - navigation
 image: art03_640.png
 ---
 
