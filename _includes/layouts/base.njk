@@ -6,8 +6,8 @@
 	<body {% if section %} class="{{ section }}"{% endif %}>
 
 		<header class="header">
-				<a href="{{ '/' | url }}" class="logo">
-					<figure>
+				<a href="{{ '/' | url }}">
+					<figure class="logo">
 				   <img src="/static/img/logo.svg" alt="Câble Cadre" />
 				  </figure></a>
 
@@ -15,6 +15,14 @@
 					<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
 			{% include "components/nav.njk" %}
+			<div class="recherche_p">
+
+					<form action="/search" id="searchthis" method="get">
+ 						<input id="search" name="q" type="text" placeholder="what do you recherche ?" />
+ 						<input id="search-btn" type="submit" value="Rechercher" />
+					</form>
+
+</div>
 		</header>
 
 		<main>
