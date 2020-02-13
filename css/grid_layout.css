@@ -57,31 +57,31 @@ main > article :first-child {
   }
   .section--list-articles{
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     align-self: start;
   }
 
   .section--list-check{
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     align-self: start;
   }
 
   .section--list-howtos{
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4;
     align-self: start;
   }
 
   .section--list-agenda{
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 5;
     align-self: start;
   }
 
   .item-list {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
     align-self: start;
   }
 }
