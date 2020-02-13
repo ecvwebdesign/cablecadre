@@ -1,13 +1,13 @@
 ---
 title: Le mode nuit est intéressant, mais a-t-il un aspect négatif ?
-summary: Cet article est intéressant dans la perspective de se créer son propre site, on comprend mieux la situation des différents types de charges.
+summary: Notre métier de webdesigner a des répercussions directes sur le monde qui nous entoure. Il est judicieux d'utiliser consciencieusement et à bon escient les techniques que nous utilisons.
 date: 2019-12-07
 author: Adrien
 tags:
   - post
   - UX
   - accessibilite
-  - design graphique
+  - webdesign
 image: art13_640.png
 ---
 
@@ -25,7 +25,7 @@ La privation de lumière peut changer la façon dont notre cerveau fonctionne et
 Le trouble affectif saisonnier (ou TAS) est la condition dans laquelle une personne se sent fatiguée, démotivée et déprimée… tout cela en raison d'un manque d'exposition à la lumière. Cela est particulièrement problématique dans certaines parties du monde où les jours sont courts et le soleil ne sort que quelques mois dans l'année.
 Compte tenu de ce que nous savons sur la lumière bleue et ses effets perturbateurs sur la mélatonine et le sommeil, on peut se demander si ces mêmes écrans émetteurs de la lumière bleue peuvent nous aider à rester éveillés et concentrés tout au long de la journée. Si tel est le cas, le mode sombre — du moins lorsqu'il est utilisé en excès — pourrait en fait nuire à notre productivité et à notre vigilance.
 Le mode sombre semble par conséquent peu efficace selon les chercheurs. Mais il ajoute néanmoins une note d'élégance aux applications qui tentent le pari d'utiliser cette esthétique.
-## Pourquoi cet article ?
+## Pourquoi cet article?
 Notre métier de webdesigner a des répercussions directes sur le monde qui nous entoure. Il est judicieux d'utiliser consciencieusement et à bon escient les techniques que nous utilisons.
 
-[Lien vers l'article](https://www.webdesignerdepot.com/2019/10/dark-mode-looks-good-but-is-it-actually-hurting-you/)
+[Lien vers l'article](https://www.pierrelaine.fr/articles-ux-ui-design/impacts-intelligence-artificielle-experience-utilisateur.html)
