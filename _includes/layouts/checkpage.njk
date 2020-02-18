@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+section: checkpage
+permalink: /checkpage/index.html
+---
+<h1>{{ title }}</h1>
+
+{{ layoutContent | safe }}
+
+{% set checklist = collections.check %}
+{% include "components/checklist.njk" %}

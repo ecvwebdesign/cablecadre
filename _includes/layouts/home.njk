@@ -8,19 +8,20 @@ section: home
 
 <section class="section--list-articles">
 
-<h2>Les Articles</h2>
+<a href="/blog/index.html"><h2>Les Articles</h2></a>
+
 {% set postslist = collections.posts %}
 {% include "components/postslist.njk" %}
 </section>
 
 <section class="section--list-howtos">
-<h2>Les How tos</h2>
+<a href="/howtopage/index.html"><h2>Les How tos</h2></a>
 {% set howtolist = collections.howto %}
 {% include "components/howtolist.njk" %}
 </section>
 
 <section class="section--list-check">
-<h2>Check this out</h2>
+<a href="/checkpage/index.html"><h2>Check this out</h2></a>
 {% set checklist = collections.check %}
 {% include "components/checklist.njk" %}
 </section>
