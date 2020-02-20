@@ -2,9 +2,7 @@
 {% for check in checklist | reverse %}
 	<article{% if check.url == url %} data-current="current item"{% endif %}>
 			<a href="{{ check.data.url | url }}">
-	<figure class="fig_check">
-		 <img src="/static/img/{{ check.data.image | url }}" class="img_check" />
-		</figure>
+
 		<h3>
 				{% if check.data.title %}
 					{{ check.data.title }}
@@ -18,21 +16,9 @@
 			</p>
 			</a>
 		{% endif %}
-		<p>
-			<time datetime="{{ check.date | machineDate }}">
-				<small>{{ check.date | readableDate }} by {{ metadata.author.name }}</small>
-			</time>
-		</p>
-		{% if check.data.tags %}
-			<p>
-				{% for tag in check.data.tags %}
-					{%- if tag != "check" -%}
-						{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-					<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-					{%- endif -%}
-				{% endfor %}
-			</p>
-		{% endif %}
+		<figure class="fig_check">
+			 <img src="/static/img/{{ check.data.image | url }}" class="img_check" />
+			</figure>
 	</article>
 {% endfor %}
 </div>

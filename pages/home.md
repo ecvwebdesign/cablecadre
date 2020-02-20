@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
-title: HomeTITLE
-navtitle: HomeNEW
+title: Home
+navtitle: Home
 date: 2017-01-01
 permalink: index.html
 ---
