@@ -1,0 +1,87 @@
+@media (min-width: 1300px) {
+  .content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0 10% 0 10%;
+}
+main :first-child,
+main > article :first-child {
+	grid-column: 1;
+	grid-row: 1;
+	align-self: start;
+}
+
+.section--list-articles{
+  grid-column: 1;
+  grid-row: 2;
+  align-self: start;
+}
+
+.section--list-check{
+  grid-column: 1;
+  grid-row: 3;
+  align-self: start;
+}
+
+.section--list-howtos{
+  grid-column: 1;
+  grid-row: 4;
+  align-self: start;
+}
+
+.section--list-agenda{
+  grid-column: 2;
+  grid-row: 2/3;
+  align-self: start;
+}
+
+.item-list {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: start;
+}
+}
+@media (max-width: 980px) {
+  .content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+  }
+  main :first-child,
+  main > article :first-child {
+  	grid-column: 1;
+  	grid-row: 1;
+  	align-self: start;
+  }
+  .section--list-articles{
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+  }
+
+  .section--list-check{
+    grid-column: 1;
+    grid-row: 3;
+    align-self: start;
+  }
+
+  .section--list-howtos{
+    grid-column: 1;
+    grid-row: 4;
+    align-self: start;
+  }
+
+  .section--list-agenda{
+    grid-column: 1;
+    grid-row: 5;
+    align-self: start;
+  }
+
+  .item-list {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: start;
+  }
+}

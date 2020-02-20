@@ -1,0 +1,38 @@
+<div class="item-list">
+{% for agenda in agendalist | reverse %}
+	<article{% if agenda.url == url %} data-current="current item"{% endif %}>
+			<a href="{{ agenda.data.url | url }}">
+	<figure class="fig_agenda">
+		 <img src="/static/img/{{ agenda.data.image | url }}" class="img_agenda" />
+		</figure>
+		<h3>
+				{% if agenda.data.title %}
+					{{ agenda.data.title }}
+				{% else %}
+					Untitled
+				{% endif %}
+		</h3>
+		{% if agenda.data.summary %}
+			<p>
+				{{ agenda.data.summary }}
+			</p>
+			</a>
+		{% endif %}
+		<p>
+			<time datetime="{{ agenda.date | machineDate }}">
+				<small>{{ agenda.date | readableDate }} by {{ metadata.author.name }}</small>
+			</time>
+		</p>
+		{% if agenda.data.tags %}
+			<p>
+				{% for tag in agenda.data.tags %}
+					{%- if tag != "agenda" -%}
+						{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+					<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+					{%- endif -%}
+				{% endfor %}
+			</p>
+		{% endif %}
+	</article>
+{% endfor %}
+</div>

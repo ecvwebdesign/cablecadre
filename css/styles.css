@@ -1,3 +1,24 @@
 body {
-  background: pink;
+  background: #eef1f6;
+}
+main{
+  margin-top: 5em;
+}
+a {
+  color: #000000;
+}
+
+article {
+  background-color: lightgrey;
+  padding : 2em;
+  border-radius: 0.2em;
+  max-width: 50em;
+}
+article img {
+  text-align: center;
+}
+@media (max-width: 980px) {
+article img {
+max-width: 100%;
+}
 }

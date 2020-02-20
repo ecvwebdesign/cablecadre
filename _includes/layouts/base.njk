@@ -5,15 +5,31 @@
 
 	<body {% if section %} class="{{ section }}"{% endif %}>
 
-		<header>
-				<a href="{{ '/' | url }}"><figure class="logo-image">
-				   <img src="/static/img/logo.svg" alt="image pas chère" />
+		<header class="header">
+				<a href="{{ '/' | url }}">
+					<figure class="logo">
+				   <img src="/static/img/logo.svg" alt="Câble Cadre" />
 				  </figure></a>
+
+					<input class="menu-btn" type="checkbox" id="menu-btn" />
+					<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
 			{% include "components/nav.njk" %}
+			<div class="recherche_p">
+
+					<form action="/search" id="searchthis" method="get">
+ 						<input id="search" name="q" type="text" placeholder="what do you recherche ?" />
+ 						<input id="search-btn" type="submit" value="Rechercher" />
+					</form>
+
+</div>
 		</header>
 
 		<main>
+			<div class="content">
 			{{ layoutContent | safe }}
+			</div>
+
 		</main>
 
 		{% include "components/footer.njk" %}

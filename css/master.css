@@ -27,15 +27,12 @@ body {
   color : var(--maincolor);
 }
 
+
 body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--bgcablecadre);
-}
-
-main {
-	max-width: 37.5em;
 }
 
 p,
@@ -46,14 +43,16 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--secondarycolor);
+	color: white;
 }
 
 a[href]:not(:hover) {
 	text-decoration: none;
 }
+.title_home {
+	color: purple;
+}
 
-header,
 main,
 footer {
 	padding: 1em;
@@ -81,7 +80,7 @@ pre {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
-	padding: 1em;
+	padding: 0;
 	margin: .5em 0;
 }
 
@@ -129,8 +128,6 @@ header nav li a[data-current="current item"] {
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--white);
 }
 
 main > section > article > * {
@@ -210,8 +207,7 @@ button {
 }
 
 .home section {
-	border: 1px solid var(--secondarycolor);
-	padding: 1em;
+	padding: 0;
 	margin-bottom: 1em;
 }
 

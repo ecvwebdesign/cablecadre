@@ -1,15 +1,18 @@
 <div class="item-list">
 	{% for post in postslist | reverse %}
-		<article{% if post.url == url %} data-current="current item"{% endif %}>
+		<article {% if post.url == url %} data-current="current item"{% endif %}>
+		<a href="{{ post.url | url }}">
+		<figure class="fig_post">
+			 <img src="/static/img/{{ post.data.image}}" class="img_post" />
+			</figure>
 			<h3>
-				<a href="{{ post.url | url }}">
 					{% if post.data.title %}
 						{{ post.data.title }}
 					{% else %}
 						Untitled
 					{% endif %}
-				</a>
 			</h3>
+						</a>
 			{% if post.data.summary %}
 				<p>
 					{{ post.data.summary }}
@@ -17,7 +20,7 @@
 			{% endif %}
 			<p>
 				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }} par {{ metadata.author.name }}</small>
+					<small>{{ post.date | readableDate }} par {{ post.data.author }}</small>
 				</time>
 			</p>
 			{% if post.data.tags %}
