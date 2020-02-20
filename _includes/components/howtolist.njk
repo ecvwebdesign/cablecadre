@@ -1,4 +1,6 @@
 
+<div class="item-list">
+
 	{% for howto in howtolist | reverse %}
 		<article{% if howto.url == url %} data-current="current item"{% endif %}>
 				<a href="{{ howto.url | url }}">
@@ -35,3 +37,5 @@
 			{% endif %}
 		</article>
 	{% endfor %}
+
+</div>

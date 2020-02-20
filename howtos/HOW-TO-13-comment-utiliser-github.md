@@ -1,17 +1,17 @@
 ---
 title: Comment (et pourquoi?) utiliser gitHub?
-summary: Comment (et pourquoi?) utiliser gitHub?
+summary: Nous sommes en 2020, pas moyen d'y couper, il faut savoir utiliser git, ou du moins comprendre son fonctionnement.
 date: 2015-01-01
 author: Arnaud
 tags:
   - howto
-  - tools
+  - outils
   - front-end
   - design methods
-image: howto_01.jpg
+image: howto_13.png
 ---
 
-![schéma branche github](/static/img/howto_01.jpg)
+![schéma branche github](/static/img/howto_13.png)
 
 Nous sommes en 2020 : pas moyen d'y couper, il faut savoir utiliser git, ou du moins comprendre son fonctionnement.
 GitHub est une plateforme d'hébergement de code pour le contrôle de version et la collaboration. Il vous permet, ainsi qu'à d'autres, de travailler ensemble sur des projets depuis n'importe où. C'est un service conçu pour gérer tous les projets web, grands ou petits.
