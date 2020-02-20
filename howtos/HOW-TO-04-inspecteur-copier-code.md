@@ -1,5 +1,5 @@
 ---
-title:  Comment utiliser l'inspecteur pour copier du code?
+title:  Comment utiliser l'inspecteur pour copier du code ?
 summary: L'inspecteur est une façon rapide de pouvoir faire des expériences avec le code, ou récupérer le code d'un site qui nous plait.
 date: 2020-02-20
 author: Gaëlle
