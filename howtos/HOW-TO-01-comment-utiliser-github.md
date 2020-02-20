@@ -34,7 +34,7 @@ Pour reprendre le même exemple, ces modifications seront apportées uniquement 
 Les pull requests sont au cœur de la collaboration sur GitHub. Lorsque vous ouvrez une pull request, vous proposez vos modifications et demandez à quelqu'un d'examiner, d'extraire vos modifications et de les fusionner dans sa branche. Les pull requests affichent les différences du contenu des deux branches. Les modifications, ajouts et soustractions sont affichés en vert et en rouge.
 ## 6. Fusionnez vos pull requests au master
 C'est bien sympa tout ça, mais le but reste de fusionner les modifications de l'équipe avec le fichier principal (dit « master »). Pour cela rien de plus simple il faut faire un « merge pull request » et donc fusionner votre travail avec le fichier principal.
-Pour reprendre le même exemple, cela signifierait renommer le fichier « compo2.ai » de votre branche en  « compo.ai ».
+Pour reprendre le même exemple, cela signifierait renommer le fichier « compo2.ai » de votre branche en  « compooi ».
 ## 7. Bière.
 Pour tout créatif, c'est clairement la consécration de tout le projet. Si vous avez compris les points précédents et les mettez en application, alors maintenant détendez-vous et ouvrez une bière, vous le méritez.
 ## 7. Github desktop
