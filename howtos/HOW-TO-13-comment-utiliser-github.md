@@ -1,5 +1,5 @@
 ---
-title: Comment (et pourquoi?) utiliser gitHub ?
+title: Comment et pourquoi? utiliser gitHub ?
 summary: Nous sommes en 2020, pas moyen d'y couper, il faut savoir utiliser git, ou du moins comprendre son fonctionnement.
 date: 2015-01-01
 author: Arnaud
