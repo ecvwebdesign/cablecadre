@@ -1,12 +1,9 @@
 ---
 title: 100,000 stars
-summary: Table périodique des éléments du web
+summary: Expérience de navigation par le défilement
 date: 2019-12-19
 tags:
   - check
-  - language
-  - développement
-  - webdesign
 image: check_04.png
 url: http://stars.chromeexperiments.com
 ---
