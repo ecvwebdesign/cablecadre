@@ -1,6 +1,6 @@
 ---
 title: L'équipe
-date: 2019-01-01T00:00:00.000Z
+date: 2017-01-06
 permalink: /equipe/index.html
 navtitle: Equipe
 tags:

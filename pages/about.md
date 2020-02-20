@@ -1,6 +1,6 @@
 ---
 title: A propos du projet
-date: 2019-01-01T00:00:00.000Z
+date: 2017-01-05
 permalink: /le-projet/index.html
 navtitle: Le projet
 tags:
