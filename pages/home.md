@@ -1,10 +1,8 @@
 ---
 layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
-permalink: /
-navtitle: Home
-tags:
-  - nav
+title: HomeTITLE
+navtitle: HomeNEW
+date: 2017-01-01
+permalink: /home/index.html
 ---
 # Bienvenue sur Câdre Cable, le blog de webdesign.

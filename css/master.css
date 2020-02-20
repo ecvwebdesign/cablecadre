@@ -49,6 +49,9 @@ a[href]:visited {
 a[href]:not(:hover) {
 	text-decoration: none;
 }
+.title_home {
+	color: purple;
+}
 
 main,
 footer {
