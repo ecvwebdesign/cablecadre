@@ -25,7 +25,6 @@ Un repository est généralement utilisé pour organiser un seul projet. Les rep
 La branche est la méthode qui permet de travailler simultanément sur différentes versions d'un référentiel.
 Lorsque vous créez une branche à partir de la branche principale, vous effectuez une copie, ou un instantané de la branche principale tel qu'elle était à ce moment-là. Si quelqu'un d'autre a apporté des modifications à la branche principale pendant que vous travailliez sur votre branche, vous pouvez extraire ces mises à jour sans écraser votre travail.
 Concrètement c'est similaire à créer un fichier « compo.ai » le dupliquer et renommer le second « compo2.ai ».
-![image des branches github] (/static/img/branche_github.jpg)
 ## 4. Les commits
 Un commit n'est en réalité que la mise à jour que vous apportez au fichier principal depuis votre branche, vous écrasez le fichier principal avec le vôtre. Ce sont eux qui vont rythmer le projet.
 Chaque commit a un message de validation associé, qui est une description expliquant pourquoi une modification particulière a été effectuée. Les messages de validation capturent l'historique de vos modifications, afin que les autres contributeurs puissent comprendre ce que vous avez fait et pourquoi.
