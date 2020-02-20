@@ -11,7 +11,7 @@ tags:
 image: howto_07.png
 ---
 
-![schéma branche github](/static/img/howto_07.png)
+![robot qui s'énerve à cause du code](/static/img/howto_07.png)
 
 Pour la réponse courte, ce ne sera pas possible de ne pas coder mais il a 9 façons qui vous permettront d’éviter au maximum de coder ou de mieux comprendre plus simplement
 Les voici :

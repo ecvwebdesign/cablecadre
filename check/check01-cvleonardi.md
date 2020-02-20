@@ -8,8 +8,8 @@ tags:
   - portfolio
   - java script
   - css
-image: check-cvleonardi.jpg
+image: check_01.png
 url: http://www.rleonardi.com/interactive-resume/
 ---
 
-![Image du site le R/Leonardi](/static/img/check-cvleonardi.jpg)
+![image du site le R/Leonardi](/static/img/check_01.png)

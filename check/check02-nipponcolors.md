@@ -7,7 +7,7 @@ tags:
   - design
   - couleurs
   - interface utilisateur
-image: check-nipponcolors.jpg
+image: check_02.png
 url: https://nipponcolors.com/
 ---
-![image du site nipponcolors](/static/img/check-nipponcolors.jpg)
+![image du site nipponcolors](/static/img/check_02.png)
