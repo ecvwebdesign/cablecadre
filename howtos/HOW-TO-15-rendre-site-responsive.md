@@ -1,5 +1,5 @@
 ---
-title:  Comment rendre un site responsive?
+title:  Comment rendre un site responsive ?
 summary: Si vous débarquez dans le monde du web design il faut savoir que la base des bases c'est d'avoir un site responsive.
 date: 2020-01-30
 author: Agathe
